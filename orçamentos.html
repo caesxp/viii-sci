@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Orçamentos</title>
+</head>
+<body>
+    <h1>Calculadora de Orçamentos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="produtoTable">
+            <!-- Os itens da lista serão inseridos aqui com o js  -->
+        </tbody>
+    </table>
+    
+    <h2>Divulgação</h2>
+    <label for="banners">Banners:</label>
+    <input type="number" id="banners" min="0" value="0"><br><br>
+    
+    <label for="crachas">Crachás:</label>
+    <input type="number" id="crachas" min="0" value="0"><br><br>
+    
+    <label for="camisetas">Camisetas:</label>
+    <input type="number" id="camisetas" min="0" value="0"><br><br>
+    
+    <h2>Total Geral</h2>
+    <p id="total">R$ 0.00</p>
+</body>
+</html>
